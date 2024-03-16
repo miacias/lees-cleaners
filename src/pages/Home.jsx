@@ -10,11 +10,13 @@ import { Workspace } from "../components/Workspace/Workspace";
 const Home = () => {
   return (
     <>
+    <div className="container">
       <div className="lees">
         {/* <CoatHangerSVG/> */}
         <Header/>
         <BizProfile/>
       </div>
+    </div>
       <div className='main-content'>
         <Storefront/>
         <FittingRooms/>
