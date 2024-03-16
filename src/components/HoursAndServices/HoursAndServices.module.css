@@ -1,0 +1,48 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 16em;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0.05em 0;
+  padding: 0.8em;
+}
+
+.hours, .services {
+  text-align: center;
+  font-weight: 800;
+  padding: 0.6em;
+  width: 14em;
+}
+
+/* 
+Display Unordered List Title
+https://stackoverflow.com/questions/1141639/how-to-semantically-provide-a-caption-title-or-label-for-a-list-in-html */
+/* ul[title]::before {
+  content: attr(title);
+  font-weight: bold;
+  padding: 4px;
+} */
+
+.hours ul {
+  list-style-type: none;
+  border: 0.12em solid black;
+  border-radius: 0.8em;
+  margin: 1em 0;
+  padding: 1em 0 1em 0.6em;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.services ul {
+  list-style-type: none;
+  font-weight: 400;
+}
+
+.services li {
+  border: 0.12em solid black;
+  border-radius: 0.8em;
+  margin: 1em 0;
+  padding: 0.8em;
+  text-align: center;
+}
