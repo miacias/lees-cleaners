@@ -1,10 +1,9 @@
-.body {
-  margin: 0;
-  padding: 0;
+body {
+  /*warm*/
+  /* background-color: #ffebb5; */
+  /*gray*/
+  background-color: #f5e8c6;
   height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  background-color: wheat;
 }
 
 .container {
@@ -14,22 +13,27 @@
   text-align: center;
 }
 
-.lees {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
+.hanger {
+  width: 60vw;
 }
 
 .main-content {
-  padding-top: 22em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 6em;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
 
-.aside-content {
-  background-color: lightgray;
+.sidebar-content {
+  /* for Safari */
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  float: right; */
+  height: 100%;
+  width: 150px;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  top: 1em;
+  right: 8em;
 }

@@ -8,11 +8,15 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-## COLORS
+## Credits
+
 - FontAwesome - location and phone icon
 - Freepik - [plug icon](https://www.flaticon.com/free-icon/power-cable_1373626?related_id=1373677&origin=search&k=1710564206480&sign-up=google)
 - Freepik - [iron icon](https://www.flaticon.com/free-icon/iron_2990631?related_id=2990664&origin=search)
+- Google Fonts - [Salsa](https://fonts.google.com/specimen/Salsa?classification=Handwriting&subset=latin&noto.script=Latn) and [Protest Strike](https://fonts.google.com/specimen/Protest+Strike?classification=Display&subset=latin&noto.script=Latn)
+- [blank garment cover](https://www.cleanersupply.ca/packaging/packaging-products/garment-covers/blank-garment-covers-2500box/#sku=gc230)
 - lines - #224706
 - iron gray - #B5ADB6.
 - bright green - #9BFE7D
 - mid green - #349804
+- Adobe Photoshop
