@@ -1,11 +1,12 @@
-import { BizProfile } from "../components/BizProfile/BizProfile";
+// import { BizProfile } from "../components/BizProfile/BizProfile";
 import { Header } from "../components/Header/Header";
 import { FittingRooms } from "../components/FittingRooms/FittingRooms";
 import { Storefront } from "../components/Storefront/Storefront";
-import { HoursAndServices } from "../components/HoursAndServices/HoursAndServices";
+// import { HoursAndServices } from "../components/HoursAndServices/HoursAndServices";
 import { Workspace } from "../components/Workspace/Workspace";
 // import CoatHangerSVG from "../components/CoatHanger/CoatHanger";
 // import CoatHanger from '../components/BizProfile/lees-cleaners-coat-hanger.png'
+import { Contact } from '../components/Contact/Contact'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         {/* <img className='hanger' src={CoatHanger} alt="coat hanger with logo"/> */}
         {/* <CoatHangerSVG/> */}
         <Header/>
-        <BizProfile/>
+        {/* <BizProfile/> */}
       </div>
     </div>
     <main className='main-content'>
@@ -23,9 +24,11 @@ const Home = () => {
       <FittingRooms/>
       <Workspace/>
     </main>
-    <div className="sidebar-content">
+    {/* <div className="sidebar-content">
       <HoursAndServices/>
-    </div>
+    </div> */}
+    <hr></hr>
+    <Contact/>
     </>
   );
 }
