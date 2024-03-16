@@ -5,21 +5,22 @@ import { FittingRooms } from "../components/FittingRooms/FittingRooms";
 import { Storefront } from "../components/Storefront/Storefront";
 import { HoursAndServices } from "../components/HoursAndServices/HoursAndServices";
 import { Workspace } from "../components/Workspace/Workspace";
-import CoatHangerSVG from "../components/CoatHanger/CoatHanger";
+// import CoatHangerSVG from "../components/CoatHanger/CoatHanger";
 
 const Home = () => {
   return (
     <>
-      <CoatHangerSVG/>
-      <Header/>
-      <div className="content">
-        {/* <h2>West Chester&apos;s favorite tailor since 1995.</h2> */}
+      <div className="lees">
+        {/* <CoatHangerSVG/> */}
+        <Header/>
         <BizProfile/>
+      </div>
+      <div className='main-content'>
         <Storefront/>
         <FittingRooms/>
         <Workspace/>
       </div>
-      <div className="content">
+      <div className="aside-content">
         <HoursAndServices/>
       </div>
     </>

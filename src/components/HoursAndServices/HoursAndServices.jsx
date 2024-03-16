@@ -13,6 +13,8 @@ const HoursAndServices = () => {
       </div>
       <div className={`services ${styles.services}`}>Services
         <ul title="Services">
+          <li>Expert Tailoring</li>
+          <li>Alterations</li>
           <li>Dry Cleaning</li>
           <li>Dress Shirt Laundry</li>
           <li>Household Items</li>
@@ -22,8 +24,6 @@ const HoursAndServices = () => {
           <li>Comforters</li>
           <li>Sheets</li>
           <li>Tablecloths</li>
-          <li>Expert Tailoring</li>
-          <li>Alterations</li>
         </ul>
       </div>
     </aside>

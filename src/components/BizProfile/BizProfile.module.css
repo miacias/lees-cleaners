@@ -1,0 +1,23 @@
+.profile {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  border-radius: 0.6em;
+  padding: 1em;
+  width: 30em;
+  align-items: center;
+  background-color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 0.5em 0;
+  word-spacing: 0.1em;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: green;
+}
