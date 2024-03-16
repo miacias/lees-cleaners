@@ -1,15 +1,16 @@
-import workSpace from "/fitting-room-placeholder-amr-taha-PpkID3ejSig-unsplash.jpg"
+import workspace from "/workspace-collab-media-upKXvfgKABY-unsplash.jpg"
+import styles from './Workspace.module.css'
 
-const WorkSpace = () => {
+const Workspace = () => {
   return (
-    <div className="biz-block">
-      <img src={workSpace} alt="fitting room" style={{width: '400px'}}/>
-      <ul>
-        <li>Measurement appointments available</li>
-        <li>Walk-ins welcome</li>
+    <div className={`workspace ${styles.workspace}`}>
+      <img src={workspace} alt="tailor workspace" style={{width: '400px'}}/>
+      <ul className={`info ${styles.info}`}>
+        <li>Measurement appointments available.</li>
+        <li>Walk-ins welcome!</li>
       </ul>
     </div>
   );
 }
 
-export { WorkSpace };
+export { Workspace };

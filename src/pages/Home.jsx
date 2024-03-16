@@ -4,6 +4,7 @@ import { Header } from "../components/Header/Header";
 import { FittingRooms } from "../components/FittingRooms/FittingRooms";
 import { Storefront } from "../components/Storefront/Storefront";
 import { HoursAndServices } from "../components/HoursAndServices/HoursAndServices";
+import { Workspace } from "../components/Workspace/Workspace";
 import CoatHangerSVG from "../components/CoatHanger/CoatHanger";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <BizProfile/>
         <Storefront/>
         <FittingRooms/>
+        <Workspace/>
       </div>
       <div className="content">
         <HoursAndServices/>
