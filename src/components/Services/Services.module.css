@@ -1,6 +1,17 @@
-/* .h3 {
-  padding: 1em;
-} */
+.h3 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  /* background-color: var(--lee-teal); */
+  /* background-color: var(--highlight); */
+  background-color: var(--text-color);
+  color: var(--highlight);
+  letter-spacing: 0.1em;
+  width: 100%;
+  margin: 0 0 0.8em 0;
+  text-align: center;
+  padding: 30px;
+}
 
 .servicesContainer {
   display: flex;

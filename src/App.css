@@ -22,21 +22,6 @@ a:hover {
   color: var(--lee-green);
 }
 
-h3 {
-  font-family: "Protest Strike", sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-  /* background-color: var(--lee-teal); */
-  /* background-color: var(--highlight); */
-  background-color: var(--text-color);
-  color: var(--highlight);
-  letter-spacing: 0.1em;
-  width: 100%;
-  margin: 0 0 0.8em 0;
-  text-align: center;
-  padding: 1em;
-}
-
 .hanger {
   width: 20vw;
 }

@@ -20,23 +20,23 @@ Currently, two official plugins are available:
 - Lucas Fernando - [services card](https://codepen.io/lucasfernandodev/pen/GRmZmpQ)
 - Sew Much Easier - [pattern paper](https://www.sewmucheasier.com/patternmaking-paper-3-packs)
 - Tymm Urban - [torn paper edges](https://stackoverflow.com/questions/29349151/is-it-possible-to-make-a-torn-paper-effect-on-edges-of-a-picture)
+- Shubham Jain - [highlighter effect](https://dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4)
 - Adobe Photoshop
 
 Suggested palette:
-- Iron: lines #224706, iron gray #B5ADB6, bright green #9BFE7D, mid green #349804
+- Iron logo: lines #224706, iron gray #B5ADB6, bright green #9BFE7D, mid green #349804
 - dutch white (beige) - #f5e8c6
 - off red - #FD0D02
 - pigment green - #21a02c
 - persian green (teal) - #21A094
+- sunglow #FFD166
+- pale dogwood #DEC3BE
+- champagne pink #E5D4CE
 
 additional palette colors:
-sunglow #FFD166
 midnight green #073B4C
 
 davy's gray #565656
 van dyke #3F2A2B
 
 feldgrau #3A4F41
-pale dogwood #DEC3BE
-
-champagne pink #E5D4CE

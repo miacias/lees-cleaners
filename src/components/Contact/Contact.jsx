@@ -5,7 +5,7 @@ import { faLocationDot, faPhone, faClock } from '@fortawesome/free-solid-svg-ico
 const Contact = () => {
   return (
     <footer className={styles.contact}>
-      <h3>Contact Information</h3>
+      <h3 className={styles.h3}>Contact Information</h3>
       <iframe
         className={styles.contactItems}
         width="311" 
