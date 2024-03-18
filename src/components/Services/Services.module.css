@@ -37,8 +37,10 @@
 
 .sewingService {
   position: relative;
+  /* width: calc(50% - 1em); */
+  width: calc(50% - 2em);
   /* width: 40em; */
-  width: 90%;
+  /* width: 90%; */
   max-width: 40em;
   height: 18em;
 }
@@ -159,6 +161,8 @@
   }
 
   .sewingService {
+    width: calc(100% - 1em); /* Set width to full width for single column layout */
+    margin: 0.5em 0;
     height: 250px;
   }
 

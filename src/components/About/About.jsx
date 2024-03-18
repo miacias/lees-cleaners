@@ -28,7 +28,7 @@ const About = () => {
             </h4>
             <p>
               <Highlight color={green} content={['Family-run business', 'Owner operated']}/>
-            </p>
+=            </p>
           </div>
         </div>
         {/* FITTING ROOMS */}
