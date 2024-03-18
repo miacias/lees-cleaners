@@ -4,9 +4,9 @@ import dottedPaper from './dotted-paper.png'
 const Services = () => {
   return (
     <>
+      <h3 className={styles.h3}>Services</h3>
       {/* TAILORING */}
       <div className={styles.servicesContainer}>
-
         <section className={`${styles.serviceCard} ${styles.sewingService}`}>
           <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
           <div className={styles.redButton}></div>
