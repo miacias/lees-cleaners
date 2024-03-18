@@ -54,7 +54,7 @@
 .cleaningService {
   width: 90%;
   max-width: 50em;
-  height: 20em;
+  height: 24em;
   transform: rotate(-1.2deg);
 }
 
@@ -122,9 +122,13 @@
     padding: 0;
   }
 
+  .sewingService {
+    height: 250px;
+  }
+
   .cleaningService {
     font-size: 0.8rem;
-    height: 380px;
+    height: 300px;
   }
 
 }

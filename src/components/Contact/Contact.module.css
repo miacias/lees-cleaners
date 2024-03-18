@@ -67,6 +67,13 @@ iframe {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
