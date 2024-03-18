@@ -1,7 +1,5 @@
 import styles from './Header.module.css'
 import iron from '/iron-128px.png'
-// import plug from '/power-cable-128px.png'
-// import plug from '/power-cable-64px.png'
 import plug from '/power-cable-64px-mid-green.png'
 
 const Header = () => {

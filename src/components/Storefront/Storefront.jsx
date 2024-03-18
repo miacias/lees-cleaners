@@ -1,6 +1,6 @@
-import storefront from "/storefront-jeff-smith-BXhN9g58-Q0-unsplash.jpg"
 import flag from "/flag-daniel-bernard-qjsmpf0aO48-unsplash.jpg"
 import styles from './Storefront.module.css'
+import storefront from './lee-storefront.jpg'
 
 const Storefront = () => {
   return (
