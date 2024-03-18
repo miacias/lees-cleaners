@@ -18,6 +18,8 @@ Currently, two official plugins are available:
 - Kit Jenson - [CSS buttons](https://codepen.io/kitjenson/pen/MWrwrMw)
 - [blank garment cover](https://www.cleanersupply.ca/packaging/packaging-products/garment-covers/blank-garment-covers-2500box/#sku=gc230)
 - Lucas Fernando - [services card](https://codepen.io/lucasfernandodev/pen/GRmZmpQ)
+- Sew Much Easier - [pattern paper](https://www.sewmucheasier.com/patternmaking-paper-3-packs)
+- Tymm Urban - [torn paper edges](https://stackoverflow.com/questions/29349151/is-it-possible-to-make-a-torn-paper-effect-on-edges-of-a-picture)
 - Adobe Photoshop
 
 Suggested palette:
