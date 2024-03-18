@@ -61,3 +61,27 @@ iframe {
 .contact span {
   margin-right: 0.6em;
 }
+
+.copyright {
+  text-align: center;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .contactItems {
+    margin-bottom: 0.5em;
+  }
+
+  .contactItems ul {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .copyright {
+    margin-top: 3.5em;
+  }
+}

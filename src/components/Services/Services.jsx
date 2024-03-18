@@ -1,7 +1,12 @@
-import styles from './Services.module.css'
-import dottedPaper from './dotted-paper.png'
+import styles from './Services.module.css';
+import dottedPaper from './dotted-paper.png';
+import Button from '../Button/Button';
 
 const Services = () => {
+  const red = '--lee-red';
+  const green = '--lee-green';
+  const teal = '--lee-teal';
+
   return (
     <>
       <h3 className={styles.h3}>Services</h3>
@@ -10,7 +15,7 @@ const Services = () => {
         <div className={styles.servicesContainer}>
           <section className={`${styles.serviceCard} ${styles.sewingService}`}>
             <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
-            <div className={styles.redButton}></div>
+            <Button color={red} />
             <p className={styles.cardText}>
               Wow so much tailoring its amazing
             </p>
@@ -22,7 +27,7 @@ const Services = () => {
           {/* ALTERATIONS */}
           <section className={`${styles.serviceCard} ${styles.sewingService}`}>
             <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
-            <div className={styles.greenButton}></div>
+            <Button color={green} />
             <p className={styles.cardText}>
               Yay we love alterations
             </p>
@@ -36,7 +41,7 @@ const Services = () => {
           {/* CLEANING */}
           <section className={`${styles.serviceCard} ${styles.cleaningService}`}>
             <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
-            <div className={styles.tealButton}></div>
+            <Button color={teal} />
             <div className={`${styles.services} ${styles.cardText}`}>
               <ul title="Services">
                 <li className={styles.markerHighlight}>Dry Cleaning</li>

@@ -52,3 +52,30 @@
   color: var(--page-background);
   cursor: pointer;
 }
+
+/* mobile phone */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 2em 0 1em 0;
+  }
+
+  .h2 {
+    font-size: 1.8rem;
+  }
+
+  .ironImg,
+  .plugImg {
+    display: none;
+    /* max-width: 20%; */
+  }
+
+  .bubbles {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .link {
+    font-size: 0.8rem;
+    margin: 0.4em 0;
+  }
+}

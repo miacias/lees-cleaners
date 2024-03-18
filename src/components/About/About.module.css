@@ -1,5 +1,6 @@
 .about {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -74,8 +75,6 @@
   inset: auto auto 50px 30px;
   display: flex;
   flex-wrap: wrap;
-  /* background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FD0D02); */
-
 }
 
 .card p span {
@@ -100,4 +99,32 @@
 
 .card:hover img {
   transition: opacity .3s ease-in;
+}
+
+/* mobile phone */
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 0;
+    padding-bottom: 1em;
+  }
+
+  .card {
+    margin: 1em;
+    width: 18rem;
+    height: 27rem;
+  }
+
+  .card h4 {
+    inset: auto auto 140px 30px;
+    transition: inset .2s ease-out;
+  }
+  
+  .card p {
+    opacity: 1;
+    transition: opacity .4s .1s ease-in;
+  }
+  
+  .card img {
+    transition: opacity .3s ease-in;
+  }
 }

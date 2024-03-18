@@ -55,7 +55,7 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-      <p>Copyright &copy; {getCurrentYear()} Lisa Lee | All rights reserved.</p>
+      <p className={styles.copyright}>Copyright &copy; {getCurrentYear()} Lisa Lee | All rights reserved.</p>
     </footer>
   );
 }
