@@ -36,7 +36,7 @@ const Services = () => {
         <section className={`${styles.serviceCard} ${styles.cleaningService}`}>
           <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
           <div className={styles.tealButton}></div>
-          <div className={styles.services}>
+          <div className={`${styles.services} ${styles.cardText}`}>
             <ul title="Services">
               <li className={styles.markerHighlight}>Dry Cleaning</li>
               <li className={styles.markerHighlight}>Dress Shirt Laundry</li>
