@@ -1,5 +1,5 @@
-// import { BizProfile } from "../components/BizProfile/BizProfile";
 import { Header } from "../components/Header/Header";
+import { Services } from "../components/Services/Services";
 import { FittingRooms } from "../components/FittingRooms/FittingRooms";
 import { Storefront } from "../components/Storefront/Storefront";
 // import { HoursAndServices } from "../components/HoursAndServices/HoursAndServices";
@@ -16,10 +16,10 @@ const Home = () => {
         {/* <img className='hanger' src={CoatHanger} alt="coat hanger with logo"/> */}
         {/* <CoatHangerSVG/> */}
         <Header/>
-        {/* <BizProfile/> */}
       </div>
     </div>
     <main className='main-content'>
+      <Services/>
       <Storefront/>
       <FittingRooms/>
       <Workspace/>
@@ -27,7 +27,6 @@ const Home = () => {
     {/* <div className="sidebar-content">
       <HoursAndServices/>
     </div> */}
-    <hr></hr>
     <Contact/>
     </>
   );

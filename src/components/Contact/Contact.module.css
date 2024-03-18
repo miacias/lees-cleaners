@@ -8,26 +8,23 @@
   /* width: 30em; */
   width: 100%;
   align-items: center;
-  background-color: white;
+  background-color: var(--head-foot-background);
   margin-bottom: 0.2em;
   line-height: 1.8;
 }
 
 .contactItems {
   flex-wrap: wrap;
-  
 }
 
 .link {
   text-decoration: none;
-  color: black;
   margin: 0.5em 0;
   word-spacing: 0.1em;
 }
 
 .link:hover {
   text-decoration: underline;
-  color: green;
 }
 
 .days {

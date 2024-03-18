@@ -1,21 +1,8 @@
 import styles from './Contact.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faPhone, faClock } from '@fortawesome/free-solid-svg-icons';
-import { useEffect } from 'react';
 
 const Contact = () => {
-
-  useEffect(() => {
-    getMap();
-  }, [])
-
-  const getMap = async () => {
-    const map = await fetch('https://www.mapquestapi.com/staticmap/v5/map?key=KEY&center=Boston,MA&size=600,400@2x');
-    if (map) console.log(map)
-    // if (map) return map;
-    return
-  }
-
   return (
     <footer className={styles.contact}>
       <iframe
