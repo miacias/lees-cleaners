@@ -55,6 +55,10 @@
 
 /* mobile phone */
 @media only screen and (max-width: 768px) {
+  .h1 {
+    font-size: 6rem;
+  }
+
   .header {
     padding: 2em 0 1em 0;
   }
