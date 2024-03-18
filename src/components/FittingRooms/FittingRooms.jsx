@@ -1,4 +1,4 @@
-import fittingRoom from "/fitting-room-placeholder-amr-taha-PpkID3ejSig-unsplash.jpg"
+import fittingRoom from "./lee-fitting-rooms.jpg"
 import styles from './FittingRooms.module.css'
 
 const FittingRooms = () => {

@@ -1,20 +1,28 @@
-body {
-  /*warm*/
-  /* background-color: #ffebb5; */
-  /*gray*/
-  background-color: #f5e8c6;
-  height: 100vh;
+:root {
+  --page-background: #E5D4CE;
+  --head-foot-background: #DEC3BE;
+  --lee-green: #21a02c;
+  --lee-red: #FD0D02;
+  --lee-teal: #21A094;
+  --text-color: #3F2A2B;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+body {
+  background-color: var(--page-background);
+  height: 100vh;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--lee-green);
 }
 
 .hanger {
-  width: 60vw;
+  width: 20vw;
 }
 
 .main-content {
@@ -23,17 +31,4 @@ body {
   flex: 1;
   align-items: center;
   justify-content: center;
-}
-
-.sidebar-content {
-  /* for Safari */
-  /* position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  float: right; */
-  height: 100%;
-  width: 150px;
-  position: fixed;
-  top: 1em;
-  right: 8em;
 }

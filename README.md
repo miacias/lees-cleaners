@@ -10,13 +10,31 @@ Currently, two official plugins are available:
 
 ## Credits
 
-- FontAwesome - location and phone icon
+- EMBEDmap.org - [Google Map Embed](https://embedmap.org/)
+- FontAwesome - [location dot](https://fontawesome.com/icons/location-dot?f=classic&s=solid), [phone](https://fontawesome.com/icons/phone?f=classic&s=solid), and [clock](https://fontawesome.com/icons/clock?f=classic&s=solid) icons
 - Freepik - [plug icon](https://www.flaticon.com/free-icon/power-cable_1373626?related_id=1373677&origin=search&k=1710564206480&sign-up=google)
 - Freepik - [iron icon](https://www.flaticon.com/free-icon/iron_2990631?related_id=2990664&origin=search)
 - Google Fonts - [Salsa](https://fonts.google.com/specimen/Salsa?classification=Handwriting&subset=latin&noto.script=Latn) and [Protest Strike](https://fonts.google.com/specimen/Protest+Strike?classification=Display&subset=latin&noto.script=Latn)
+- Kit Jenson - [CSS buttons](https://codepen.io/kitjenson/pen/MWrwrMw)
 - [blank garment cover](https://www.cleanersupply.ca/packaging/packaging-products/garment-covers/blank-garment-covers-2500box/#sku=gc230)
-- lines - #224706
-- iron gray - #B5ADB6.
-- bright green - #9BFE7D
-- mid green - #349804
+- Lucas Fernando - [services card](https://codepen.io/lucasfernandodev/pen/GRmZmpQ)
 - Adobe Photoshop
+
+Suggested palette:
+- Iron: lines #224706, iron gray #B5ADB6, bright green #9BFE7D, mid green #349804
+- dutch white (beige) - #f5e8c6
+- off red - #FD0D02
+- pigment green - #21a02c
+- persian green (teal) - #21A094
+
+additional palette colors:
+sunglow #FFD166
+midnight green #073B4C
+
+davy's gray #565656
+van dyke #3F2A2B
+
+feldgrau #3A4F41
+pale dogwood #DEC3BE
+
+champagne pink #E5D4CE
