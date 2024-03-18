@@ -1,3 +1,7 @@
+.container {
+  padding: 4em 0;
+}
+
 .h3 {
   font-family: "Protest Strike", sans-serif;
   font-size: 24px;
@@ -94,7 +98,6 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  /* padding: 0 0.2em; */
   justify-content: center;
 }
 

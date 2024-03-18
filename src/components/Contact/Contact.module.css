@@ -1,9 +1,30 @@
+.contact {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 4em 0;
+  width: 100%;
+  align-items: center;
+  background-color: var(--head-foot-background);
+  line-height: 1.8;
+}
+
+iframe {
+  border-radius: 5%;
+  /* border: 1px solid var(--text-color); */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .h3 {
   font-family: "Protest Strike", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  /* background-color: var(--lee-teal); */
-  /* background-color: var(--highlight); */
   background-color: var(--text-color);
   color: var(--highlight);
   letter-spacing: 0.1em;
@@ -13,23 +34,12 @@
   padding: 30px;
 }
 
-.contact {
-  font-size: 1.3rem;
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid green; */
-  /* border-radius: 0.6em; */
-  padding: 0 0 4em 0;
-  /* width: 30em; */
-  width: 100%;
-  align-items: center;
-  background-color: var(--head-foot-background);
-  margin-bottom: 0.2em;
-  line-height: 1.8;
+.contactItems {
+  margin: 2em;
 }
 
-.contactItems {
-  flex-wrap: wrap;
+.contactItems ul li {
+  margin: 0.5em 0;
 }
 
 .link {

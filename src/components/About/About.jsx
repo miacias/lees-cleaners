@@ -2,7 +2,7 @@ import styles from './About.module.css';
 // import flag from './south-korean-flag.jpg';
 import storefront from './lee-storefront.jpg';
 import fittingRoom from "./lee-fitting-rooms.jpg";
-import workspace from "/workspace-collab-media-upKXvfgKABY-unsplash.jpg";
+import workspace from "./workspace-collab-media-upKXvfgKABY-unsplash.jpg";
 import Button from '../Button/Button';
 import Highlight from '../Highlights/Highlights';
 
