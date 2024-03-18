@@ -21,6 +21,7 @@ Currently, two official plugins are available:
 - Sew Much Easier - [pattern paper](https://www.sewmucheasier.com/patternmaking-paper-3-packs)
 - Tymm Urban - [torn paper edges](https://stackoverflow.com/questions/29349151/is-it-possible-to-make-a-torn-paper-effect-on-edges-of-a-picture)
 - Shubham Jain - [highlighter effect](https://dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4)
+- Josh Pooley - [animated card](https://codepen.io/jepooley/pen/NWYryap)
 - Adobe Photoshop
 
 Suggested palette:

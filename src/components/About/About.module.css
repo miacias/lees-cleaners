@@ -5,6 +5,26 @@
   padding: 50px;
 }
 
+.h3 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: var(--text-color);
+  color: var(--highlight);
+  letter-spacing: 0.1em;
+  width: 100%;
+  margin: 0 0 0.8em 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.flagImg {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  z-index: 1;
+}
+
 .card {
   margin: 0 2em;
   width: 24rem;
@@ -32,8 +52,18 @@
   transition: inset .3s .3s ease-out;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 35px;
   text-transform: uppercase;
+  /* text outline */
+  text-shadow: 
+    -1px -1px 0 var(--text-color),  
+    1px -1px 0 var(--text-color),
+    -1px  1px 0 var(--text-color),
+    1px  1px 0 var(--text-color);
+}
+
+.card h4 span {
+  z-index: 2;
 }
 
 .card p {
@@ -42,6 +72,10 @@
   max-width: 80%;
   transition: opacity .2s ease-out;
   inset: auto auto 50px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FD0D02); */
+
 }
 
 .card p span {
@@ -50,6 +84,8 @@
   margin: 0.2em;
   font-size: 24px;
   font-weight: 400;
+  margin: -2px -6px;
+  padding:  2px  6px;
 }
 
 .card:hover h4 {
