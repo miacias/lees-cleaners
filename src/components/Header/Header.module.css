@@ -38,6 +38,7 @@
 .bubbles {
   display: flex;
   justify-content: center;
+  margin-bottom: 1em;
 }
 
 .link {
@@ -45,7 +46,7 @@
   color: white;
   background-color: var(--lee-green);
   border-radius: 0.6em;
-  margin: 0.3em 0 1em 4em;
+  margin: 0.3em 4em;
   padding: 0.6em;
 }
 
