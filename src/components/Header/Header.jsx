@@ -1,6 +1,7 @@
 import styles from './Header.module.css'
 import iron from '/iron-128px.png'
-import plug from '/power-cable-64px-mid-green.png'
+// import plug from '/power-cable-64px-mid-green.png'
+import plug from './plug (2).png';
 
 const Header = () => {
   return (
