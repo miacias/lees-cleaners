@@ -17,11 +17,10 @@ const Services = () => {
             <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
             <Button color={red} />
             <p className={styles.cardText}>
-              Wow so much tailoring its amazing
+              Precise measurements              
             </p>
             <div className={styles.serviceName}>
               <span className={styles.markerHighlight}>Expert Tailoring</span>
-              <span>by Lisa Lee</span>
             </div>
           </section>
           {/* ALTERATIONS */}
@@ -29,11 +28,10 @@ const Services = () => {
             <img src={dottedPaper} alt="dotted sewing paper" className={styles.backgroundImage}/>
             <Button color={green} />
             <p className={styles.cardText}>
-              Yay we love alterations
+              Personalized to your needs
             </p>
             <div className={styles.serviceName}>
               <span className={styles.markerHighlight}>Alterations</span>
-              <span>by Lisa Lee</span>
             </div>
           </section>
         </div>
@@ -56,7 +54,6 @@ const Services = () => {
             </div>
             <div className={styles.serviceName}>
               <span></span>
-              <span>by Lisa Lee</span>
             </div>
           </section>
         </div>

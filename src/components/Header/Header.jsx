@@ -7,7 +7,7 @@ const Header = () => {
     <header className={styles.header}>
       <h1 className={styles.h1}>
         <img src={iron} alt='green iron' className={styles.ironImg}/>
-        LEE&apos;S cleaners
+        LEE&apos;S Cleaners
         <img src={plug} alt='green electrical plug' className={styles.plugImg}/>
       </h1>
       <h2 className={styles.h2}>West Chester&apos;s favorite tailor since 1995.</h2>

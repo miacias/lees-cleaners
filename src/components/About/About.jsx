@@ -3,16 +3,19 @@ import styles from './About.module.css';
 import storefront from './lee-storefront.jpg';
 import fittingRoom from "./lee-fitting-rooms.jpg";
 import workspace from "./workspace-collab-media-upKXvfgKABY-unsplash.jpg";
+import dryCleaning from './lee-dry-cleaning.jpg';
 import Button from '../Button/Button';
 import Highlight from '../Highlights/Highlights';
 
 const About = () => {
   const btnGreen = '--lee-green';
-  const green = '21a02c';
   const btnRed = '--lee-red';
-  const red = 'FD0D02';
   const btnTeal = '--lee-teal';
+  const btnYellow = '--highlight';
+  const green = '21a02c';
+  const red = 'FD0D02';
   const teal = '21A094';
+  const yellow = 'FFD166';
 
   return (
     <>
@@ -31,29 +34,42 @@ const About = () => {
 =            </p>
           </div>
         </div>
+        {/* DRY CLEANING */}
+        <div className={styles.card}>
+          <img src={dryCleaning} alt='dry cleaning counter' />
+          <div className={styles.cardContent}>
+            <h4>
+              <Button color={btnRed}/>
+              <span>Dry Cleaning</span>
+            </h4>
+            <p>
+              <Highlight color={red} content={['Quality care', 'Pressing included']}/>
+            </p>
+          </div>
+        </div>
         {/* FITTING ROOMS */}
         <div className={styles.card}>
           <img src={fittingRoom} alt='fitting rooms' />
           <div className={styles.cardContent}>
             <h4>
-              <Button color={btnRed}/>
+              <Button color={btnTeal}/>
               <span>Fitting Rooms</span>
             </h4>
             <p>
-              <Highlight color={red} content={['Measurement appointments available', 'Walk-ins welcome']}/>
+              <Highlight color={teal} content={['Appointments available', 'Walk-ins welcome']}/>
             </p>
           </div>
         </div>
-        {/* WORK SPACE */}
+        {/* ALTERATIONS */}
         <div className={styles.card}>
           <img src={workspace} alt='workspace area' />
           <div className={styles.cardContent}>
             <h4>
-              <Button color={btnTeal}/>
-              <span>Work Space</span>
+              <Button color={btnYellow}/>
+              <span>Alterations</span>
             </h4>
-            <p>
-              <Highlight color={teal} content={['All alterations done on site']}/>
+            <p className={styles.outline}>
+              <Highlight color={yellow} content={['All work done in house']}/>
             </p>
           </div>
         </div>
