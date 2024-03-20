@@ -51,7 +51,7 @@
 }
 
 .link:hover {
-  color: var(--page-background);
+  color: var(--highlight);
   cursor: pointer;
 }
 
