@@ -68,7 +68,7 @@ const About = () => {
               <Button color={btnYellow}/>
               <span>Alterations</span>
             </h4>
-            <p className={styles.outline}>
+            <p className={styles.contrastText}>
               <Highlight color={yellow} content={['All work done in house']}/>
             </p>
           </div>

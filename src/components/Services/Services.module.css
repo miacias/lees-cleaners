@@ -141,5 +141,6 @@
 
   .cleaningService {
     font-size: 0.8rem;
+    transform: rotate(-1deg);
   }
-}
+} 

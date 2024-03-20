@@ -63,12 +63,8 @@
     1px 1px 0 var(--text-color);
 }
 
-.outline {
-  text-shadow: 
-  -1px -1px 0 var(--text-color),  
-  1px -1px 0 var(--text-color),
-  -1px 1px 0 var(--text-color),
-  1px 1px 0 var(--text-color);
+.contrastText {
+  color: var(--text-color);
 }
 
 .card h4 span {
@@ -90,7 +86,7 @@
   flex-direction: column;
   margin: 0.2em;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   margin: -2px -6px;
   padding:  2px  6px;
 }

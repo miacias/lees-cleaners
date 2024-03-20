@@ -92,3 +92,11 @@ iframe {
     margin-top: 3.5em;
   }
 }
+
+/* mobile phone */
+@media only screen and (max-width: 480px) {
+  iframe {
+    width: 250px;
+    /* padding: ; */
+  }
+}
