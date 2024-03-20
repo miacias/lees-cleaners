@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
-import iron from '/iron-128px.png'
-import plug from './plug (2).png';
+import iron from './lees-cleaners-iron.png'
+import plug from './lees-cleaners-plug.png';
 
 const Header = () => {
   return (
