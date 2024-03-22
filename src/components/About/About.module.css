@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0;
+  margin: 0 auto;
   padding: 50px;
 }
 
@@ -36,7 +39,7 @@
   color: white;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
- 
+
 .card img {
   position: absolute;
   object-fit: cover;
@@ -56,8 +59,8 @@
   font-size: 2rem;
   text-transform: uppercase;
   /* text outline */
-  text-shadow: 
-    -1px -1px 0 var(--text-color),  
+  text-shadow:
+    -1px -1px 0 var(--text-color),
     1px -1px 0 var(--text-color),
     -1px 1px 0 var(--text-color),
     1px 1px 0 var(--text-color);
@@ -88,7 +91,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: -2px -6px;
-  padding:  2px  6px;
+  padding: 2px 6px;
 }
 
 .card:hover h4 {
@@ -122,12 +125,12 @@
     inset: auto auto 140px 30px;
     transition: inset .2s ease-out;
   }
-  
+
   .card p {
     opacity: 1;
     transition: opacity .4s .1s ease-in;
   }
-  
+
   .card img {
     transition: opacity .3s ease-in;
   }

@@ -96,7 +96,16 @@ iframe {
 /* mobile phone */
 @media only screen and (max-width: 480px) {
   iframe {
-    width: 250px;
-    /* padding: ; */
+    width: 200px;
+    margin: 0;
+  }
+
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .copyright {
+    padding: 5px;
   }
 }
