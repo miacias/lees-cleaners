@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Lee's Cleaners
 
 ## Description
 
@@ -31,7 +31,7 @@ No tests at this time.
 
 ## Usage
 
-Please visit [leescleaners.com](https://www.leescleaners.com/) for the official business site or [lees-cleaners.vercel.app](https://lees-cleaners.vercel.app/) for the production-testing site!
+Please visit [leescleaners.com](https://www.leescleaners.com/) for the official business site or [lees-cleaners.vercel.app](https://lees-cleaners.vercel.app/) for the testing site!
 
 ## Features
 
